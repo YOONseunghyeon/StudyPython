@@ -24,7 +24,7 @@ print(arr2[2][1][0]) #['Hi', 'My', 'Friend'] -> 'My'-> M
 arr3 = list(range(1, 4))
 print(arr3)
 print(arr3 * 3)
-print(arr3 + 3)
+#print(arr3 + 3)
 print(len(arr))  #arr = list(range(2, 101, 2))
 
 # 리스트     #arr3 = list(range(1, 4))
@@ -51,7 +51,8 @@ print(arr4)  #내림차순
 arr4.insert(2, 10) #0,1,2 자리에 10
 print(arr4)
 
-tup1 = tuple(range(1,6))
+tup1 = tuple(range(1, 6))
+#tup1 = tuple(range(1,6))
 print(tup1)             #튜플은 함수 없음
 print(tup1[3])
 
@@ -76,7 +77,8 @@ print(dic1.items())
 # 리스트를 튜플 변환
 print('--리스트/튜플 변환')
 print(arr4)
-tup2 = tuple(arr4) #튜플로 변환
+tup2 = tuple(arr4)
+#tup2 = tuple(arr4) #튜플로 변환
 print(tup2)
 
 arr4.sort()
